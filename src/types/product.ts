@@ -5,4 +5,4 @@ export interface Product {
   price: number;
   inStock: boolean;
 }
-export type PriceSort = 'default' | 'price-asc' | 'price-desc';
+export type PriceSort = "default" | "price-asc" | "price-desc";
