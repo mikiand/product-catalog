@@ -16,9 +16,10 @@ select {
 button {
   cursor: pointer;
 }
-:focus-visible {
-  outline: 3px solid #0f766e;
-  outline-offset: 4px;
+*,
+*::before,
+*::after {
+  outline: none;
 }
 ::selection {
   background: #ccfbf1;
